@@ -1,5 +1,5 @@
 # Causal Inference
-I decided to develop a series of tutorials on causal inference methods for observational studies after receiving reviewer feedback highlighting the need to address endogeneity issues in some of my submitted manuscripts. While working on those revisions, I was inspired to create a workshop focused on methods designed to tackle challenges in observational data analysis. These are some of the topics I plan to cover. Moving forward, I aim to expand this effort by creating YouTube videos and blog posts, as time permits.
+I decided to develop a series of tutorials on causal inference methods for observational studies after receiving reviewer feedback highlighting the need to address endogeneity issues in some of my submitted manuscripts. While working on those revisions, I thought to create a workshop focused on methods designed to tackle challenges in observational data analysis. These are some of the topics I plan to cover. Each topic presents a method or framework to tackle specific inference problems inherent to observational data, where treatment assignment is not randomized and confounding is a major concern. Moving forward, I aim to expand this effort by creating YouTube videos and blog posts. 
 
 ## 1. Observational Studies and Causal Inference
 - Understanding difference between correlation and causation
