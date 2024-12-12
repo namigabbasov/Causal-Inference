@@ -1,5 +1,5 @@
 # Causal Inference
-I decided to develop a series of tutorials on causal inference methods for observational studies after receiving reviewer feedback asking to address endogeneity issues in some of my submitted manuscripts. While working on those revisions, I thought to create a workshop focused on methods designed to tackle challenges in observational data analysis. These are some of the topics I plan to cover. Each topic presents a method(s) to tackle specific inference problems inherent to observational data, where treatment assignment is not randomized and confounding is a major concern. Moving forward, I aim to expand this effort by creating YouTube videos and blog posts. 
+I decided to develop a series of tutorials on causal inference methods for observational studies after receiving reviewer feedback asking to address endogeneity issues in some of my submitted manuscripts. While working on those revisions, I thought to create a workshop focused on methods designed to tackle these challenges in observational studies. Below are some of the topics I plan to cover. Each topic presents a method(s) to tackle specific inference problems inherent to observational data, where treatment assignment is not randomized and confounding is a major concern. Moving forward, I aim to expand this effort by making YouTube videos and writing blog posts. 
 
 ## 1. Observational Studies and Causal Inference
 - Understanding difference between correlation and causation
@@ -29,10 +29,9 @@ I decided to develop a series of tutorials on causal inference methods for obser
 
 ## 3. Regression-Based Methods
 - Using regression to adjust for confounders and estimate causal effects
-- Understanding and applying Regression Discontinuity (RD) designs
+- Regression Discontinuity (RD) designs
 - Instrumental Variable (IV) estimation for endogeneity
-- Concepts of sharp vs. fuzzy RD
-- Applications of IV methods in economics and policy studies
+
 
 ### Readings
 - [Angrist, Joshua D., and Alan B. Krueger. 1991. “Does Compulsory School Attendance Affect Schooling and Earnings?” *The Quarterly Journal of Economics* 106(4): 979–1014.](https://doi.org/10.2307/2937954)
@@ -42,11 +41,10 @@ I decided to develop a series of tutorials on causal inference methods for obser
 ---
 
 ## 4. Matching Methods
-- Propensity score matching: reducing bias in observational studies
+- Propensity score matching
 - Exact matching, Mahalanobis distance matching, and full matching
 - Evaluating balance before and after matching
 - Limitations of matching methods
-- Applications in healthcare, political science, and education
 
 ### Readings
 - [Ho, Daniel E., Kosuke Imai, Gary King, and Elizabeth A. Stuart. 2007. “Matching as Nonparametric Preprocessing for Reducing Model Dependence in Parametric Causal Inference.” *Political Analysis* 15: 199–236.](https://doi.org/10.1093/pan/mpl013)
@@ -57,10 +55,10 @@ I decided to develop a series of tutorials on causal inference methods for obser
 
 ## 5. Weighting Methods
 - Using Inverse Probability Weighting (IPW) for causal inference
-- Stabilized weights and their advantages in finite samples
+- Stabilized weights
 - Entropy balancing: a flexible reweighting method
 - Comparison of weighting vs. matching approaches
-- Implementation of weighting methods in R and Python
+
 
 ### Readings
 - [Rosenbaum, Paul R. 1987. “Model-Based Direct Adjustment.” *Journal of the American Statistical Association* 82(398): 387–394.](https://doi.org/10.2307/2289440)
@@ -73,7 +71,7 @@ I decided to develop a series of tutorials on causal inference methods for obser
 - Difference-in-Differences: identifying causal effects in panel data
 - Parallel trends assumption and its validation
 - Extensions of DiD: triple differences and event studies
-- Applications in labor economics and public policy
+
 
 ### Readings
 - [Card, David, and Alan B. Krueger. 1994. “Minimum Wages and Employment: A Case Study of the Fast Food Industry in New Jersey and Pennsylvania.” *American Economic Review* 84(4): 772–793.](https://www.aeaweb.org/articles?id=10.1257/aer.84.4.772)
@@ -87,7 +85,7 @@ I decided to develop a series of tutorials on causal inference methods for obser
 - Constructing a synthetic control using weighted averages of control units
 - Comparison of synthetic control and DiD methods
 - Limitations and robustness checks for synthetic controls
-- Applications in evaluating state-level policies and interventions
+
 
 ### Readings
 - [Abadie, Alberto, and Javier Gardeazabal. 2003. “The Economic Costs of Conflict: A Case Study of the Basque Country.” *American Economic Review* 93(1): 113–132.](https://www.aeaweb.org/articles?id=10.1257/000282803321455188)
@@ -100,7 +98,6 @@ I decided to develop a series of tutorials on causal inference methods for obser
 - Metalearners: S-learner, T-learner, and X-learner frameworks
 - Causal forests for heterogeneous treatment effects
 - Double machine learning for high-dimensional causal inference
-- Ethical considerations in using machine learning for causal inference
 
 ### Readings
 - [Belloni, Alexandre, Victor Chernozhukov, and Christian Hansen. 2014. “High-Dimensional Methods and Inference on Structural and Treatment Effects.” *Journal of Economic Perspectives* 28(2): 29–50.](https://doi.org/10.1257/jep.28.2.29)
@@ -110,9 +107,9 @@ I decided to develop a series of tutorials on causal inference methods for obser
 ---
 
 ## 9. Sensitivity Analysis for Causal Inference
-- Methods for assessing the impact of unmeasured confounding
+- Methods for assessing impact of unmeasured confounding
 - Sensitivity analysis using Rosenbaum bounds
-- Introduction to the E-value for robustness checks
+- Introduction to E-value for robustness checks
 - Sensitivity to assumptions in DiD, IV, and RD designs
 - Practical tools for conducting sensitivity analysis in R
 
@@ -128,7 +125,6 @@ I decided to develop a series of tutorials on causal inference methods for obser
 - Identification and estimation of mediators
 - Assumptions in mediation analysis: sequential ignorability
 - Statistical methods for mediation: Baron-Kenny, structural equation modeling
-- Applications of mediation analysis in psychology and public health
 
 ### Readings
 - [Baron, Reuben M., and David A. Kenny. 1986. “The Moderator–Mediator Variable Distinction in Social Psychological Research.” *Journal of Personality and Social Psychology* 51(6): 1173–1182.](https://doi.org/10.1037/0022-3514.51.6.1173)
@@ -137,12 +133,12 @@ I decided to develop a series of tutorials on causal inference methods for obser
 
 ---
 
-## 11. Survival Analysis in Causal Inference
+## 11.Causal Inference in Survival Analysis 
 - Kaplan-Meier curves and their role in survival analysis
 - Cox proportional hazards model: assumptions and interpretation
 - Random Survival Forests (RSFs) for identifying important predictors
 - Estimating treatment effects in time-to-event data
-- Applications in healthcare and epidemiology
+
 
 ### Readings
 - [Cox, D. R. 1972. “Regression Models and Life-Tables.” *Journal of the Royal Statistical Society: Series B* 34(2): 187–220.](https://doi.org/10.1111/j.2517-6161.1972.tb00899.x)
